@@ -28,11 +28,11 @@ export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:/usr/local/caffe/lib/
 export EDITOR=vim
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64/
 export PATH=/usr/local/bin/:$PATH:/usr/local/arcanist/arcanist/bin:~/bin
-export PATH=$PATH:/usr/local/cuda/bin:/Users/johmathe/code/depot_tools
+export PATH=$PATH:/usr/local/cuda/bin:/Users/anishnag/code/depot_tools
 export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w $(parse_git_branch)\$\[\033[00m\] '
 export VISUAL=${EDITOR}
 
-export PATH=$PATH:/home/johmathe/.local/bin
+export PATH=$PATH:/home/anishnag/.local/bin
 
 # The next line updates PATH for the Google Cloud SDK.
 CLOUD_FILE='/home/$USER/google-cloud-sdk/path.bash.inc'
